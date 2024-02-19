@@ -22,4 +22,11 @@ Passos:
 
 7. Os links devem mudar de cor quando o cursor do mouse do usuário passar por cima.
 8. As imagens dos produtos deverão ser obtidas dos próprios produtos pesquisados no website Mercado Livre e serem salvas num diretório/pasta chamado ```imagens``` dentro do da pasta do projeto no pendrive.
-9. Boa sorte! :wink:
+9. Aplique o **CSS Reset** no começo do escopo da tag/elemento ```style``` para estabelecer um ponto de partida de estilo padrão independentemente do web browser:
+```
+* {
+  margin: 0px;
+  padding: 0px;
+}
+```
+11. Boa sorte! :wink:
