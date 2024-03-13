@@ -38,7 +38,7 @@ Passos:
 
 ![image](https://github.com/andreylnx/catalogo-de-produtos/assets/17456968/20b65170-ff65-430c-8f63-40d4513f34b7)
 
-14. Para cada produto catalogado na página principal, criar uma página de compra que será acessada quando o usuário clicar no link "Comprar", conforme modelo implementado abaixo:
+14. Para cada produto catalogado na página principal (index.html), criar uma página de compra que será acessada quando o usuário clicar no link "Comprar", conforme modelo implementado abaixo:
 
 ![image](https://github.com/andreylnx/catalogo-de-produtos/assets/17456968/75afc8c4-c4ac-46b0-ac6d-24b8b87a1284)
 
