@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página de Catálogo de Produtos">
+    <meta name="keywords" content="produtos, compra, barato">
+    <meta name="author" content="Andrey">
+
+    <title>eBazar</title>
+
+    <!-- <link rel="stylesheet" href="estilo.css"> -->
+
+    <style type="text/css">
+        /* CSS Reset */
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #EDEDED;
+        }
+
+        header {
+            background-color: #FFE600;
+            padding: 15px;
+        }
+
+        #catalogo-de-produtos-div {
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 50px;
+            text-align: left;
+            width: 1000px;
+        }
+
+        .produto-header {
+            text-align: center;
+            align-items: center;
+            width: 25%;
+        }
+
+        .descritivo-header {
+            width: 50%;
+            text-align: left;
+            align-items: center;
+        }
+
+        .preco-header {
+            width: 25%;
+            text-align: center;
+            align-items: center;
+        }
+        
+        table, th, td {
+            font-size: large;
+            padding: 15px;
+            background-color: white;
+        }
+
+        .imagem-produto-cell {
+            text-align: center;
+        }
+
+        .descritivo-produto-cell {
+            text-align: left;
+        }
+
+        .preco-produto-cell {
+            text-align: center;
+        }
+
+        a {
+            color: dodgerblue;
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        .produto-div {
+            border-bottom: 3px solid #EDEDED;
+            width: 100%;
+        }
+
+        footer {
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>eBazar</h1>
+    </header>
+
+    <hr />
+
+    <section id="catalogo-de-produtos-div">
+        <h2>Catálogo de Produtos</h2>
+        <br />
+
+        <div class="produto-div">
+            <table>
+                <tr>
+                    <th class="produto-header">Produto</th>
+                    <th class="descritivo-header">Descritivo</th>
+                    <th class="preco-header">Preço</th>
+                </tr>
+    
+                <tr>
+                    <td class="imagem-produto-cell">
+                        <img 
+                            src="imagens/carregador_veicular_baseus_01.webp" 
+                            style="max-height: 200px; width: auto;">
+                    </td>
+                    <td class="descritivo-produto-cell">
+                        Carregador Veicular Turbo 40w Baseus Usb + Tipo C + Cabo 1m
+                    </td>
+                    <td class="preco-produto-cell">
+                        <b>R$ 136,40</b>
+                        <br />
+                        <a href="compras/carregador_veicular_baseus_01.html">Comprar</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="produto-div">
+            <table>
+                <tr>
+                    <th class="produto-header">Produto</th>
+                    <th class="descritivo-header">Descritivo</th>
+                    <th class="preco-header">Preço</th>
+                </tr>
+    
+                <tr>
+                    <td class="imagem-produto-cell">
+                        <img 
+                            src="imagens/carregador_baseus_turbo_20w_parede.webp" 
+                            style="max-height: 200px; width: auto;">
+                    </td>
+                    <td class="descritivo-produto-cell">
+                        Carregador De Parede Turbo 20w Tipo-c Baseus + Cabo iPhone
+                    </td>
+                    <td class="preco-produto-cell">
+                        R$ 149,00
+                        <br />
+                        <a href="#">Comprar</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="produto-div">
+            <table>
+                <tr>
+                    <th class="produto-header">Produto</th>
+                    <th class="descritivo-header">Descritivo</th>
+                    <th class="preco-header">Preço</th>
+                </tr>
+    
+                <tr>
+                    <td class="imagem-produto-cell">
+                        <img 
+                            src="imagens/fone_baseus_bowie_wm02_tws_bluetooth_53.webp" 
+                            style="max-height: 200px; width: auto;">
+                    </td>
+                    <td class="descritivo-produto-cell">
+                        Fone Sem Fio Baseus Bowie Wm02 Tws Bluetooth 5.3 Bateria 25h Cor Preto
+                    </td>
+                    <td class="preco-produto-cell">
+                        R$ 148,18
+                        <br />
+                        <a href="#">Comprar</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="produto-div">
+            <table>
+                <tr>
+                    <th class="produto-header">Produto</th>
+                    <th class="descritivo-header">Descritivo</th>
+                    <th class="preco-header">Preço</th>
+                </tr>
+    
+                <tr>
+                    <td class="imagem-produto-cell">
+                        <img 
+                            src="imagens/cabo_turbo_baseus_tipo-C_tungsten_gold_100W.webp" 
+                            style="max-height: 200px; width: auto;">
+                    </td>
+                    <td class="descritivo-produto-cell">
+                        Cabo Turbo Tipo-c P/ Tipo-c Baseus Tungsten Gold 100w 2m Cor Preto
+                    </td>
+                    <td class="preco-produto-cell">
+                        R$ 70,22
+                        <br />
+                        <a href="#">Comprar</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="produto-div">
+            <table>
+                <tr>
+                    <th class="produto-header">Produto</th>
+                    <th class="descritivo-header">Descritivo</th>
+                    <th class="preco-header">Preço</th>
+                </tr>
+    
+                <tr>
+                    <td class="imagem-produto-cell">
+                        <img 
+                            src="imagens/carregador_branco_baseus_usb_a_c _qc3.webp" 
+                            style="max-height: 200px; width: auto;">
+                    </td>
+                    <td class="descritivo-produto-cell">
+                        Carregador De Parede Baseus Usb-a + Usb-c Qc 3.0 Pd 20w Cor Branco
+                    </td>
+                    <td class="preco-produto-cell">
+                        R$ 98,77
+                        <br />
+                        <a href="#">Comprar</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </section>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
