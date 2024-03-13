@@ -30,3 +30,15 @@ Passos:
 }
 ```
 11. Boa sorte! :wink:
+
+<h1>EXTRA!!!</h1>
+
+12. Criar um arquivo chamado ```estilo.css``` na pasta do projeto, recortar todo o código CSS da página principal (index.html) e colar dentro deste arquivo que acabou de ser criado.
+13. Na página página principal (index.html), fazer referência ao arquivo externo de CSS que foi criado.
+
+![image](https://github.com/andreylnx/catalogo-de-produtos/assets/17456968/20b65170-ff65-430c-8f63-40d4513f34b7)
+
+
+
+
+
