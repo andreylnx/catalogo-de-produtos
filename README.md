@@ -42,6 +42,7 @@ Passos:
 
 ![image](https://github.com/andreylnx/catalogo-de-produtos/assets/17456968/75afc8c4-c4ac-46b0-ac6d-24b8b87a1284)
 
-15. Boa sorte! :muscle:
+15. Não usar o elemento ```table``` para implementar o layout proposto.
+16. Boa sorte! :muscle:
 
 
