@@ -1,0 +1,122 @@
+<!-- D:\EFG\Componentes\Front-End\Projetos\catalogo-de-produtos\compras\carregador_veicular_baseus_01.html -->
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página de Catálogo de Produtos">
+    <meta name="keywords" content="produtos, compra, barato">
+    <meta name="author" content="Andrey">
+
+    <title>eBazar</title>
+    
+    <link rel="stylesheet" href="../estilo.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>eBazar</h1>
+    </header>
+
+    <hr />
+
+    <div id="compra-div">
+        <div class="produto-info-div">
+
+            <img src="../imagens/carregador_veicular_baseus_01.webp" 
+            style="max-height: 200px; width: auto;">
+
+            <div style="text-align: center;">
+                Carregador Veicular Turbo 40w Baseus Usb + Tipo C + Cabo 1m
+            </div>
+        </div>
+
+        <hr />
+
+        <div id="pagamento-div" style="flex-grow: 7;">
+            <form method="POST" action="efetuar_compra.js">
+                <div id="forma-pagamento-div">
+                    Formas de Pagamento:
+
+                    <div id="opcoes-pagamento-div">
+                        <div class="radio-div">
+                            <input type="radio" id="opcao_pix" name="forma_pagamento" value="pix">
+                            <label for="opcao_pix">Pix</label>
+                        </div>
+
+                        <div class="radio-div">
+                            <input type="radio" id="opcao_boleto" name="forma_pagamento" value="boleto">
+                            <label for="opcao_boleto">Boleto</label>
+                        </div>
+
+                        <div class="radio-div">
+                            <input type="radio" id="opcao_cartao_debito" name="forma_pagamento" value="debito">
+                            <label for="opcao_cartao_debito">Cartão de Débito</label>
+                        </div>
+
+                        <div class="radio-div">
+                            <input type="radio" id="opcao_cartao_credito" name="forma_pagamento" value="credito" checked>
+                            <label for="opcao_cartao_credito">Cartão de Crédito</label>
+                        </div>
+                    </div>
+                </div>
+    
+                <div id="dados-cartao-div">
+                    <div>
+                        <label for="txt_numero_cartao">Número do Cartão de Crédito:</label> 
+                        <br>
+                        <input type="text" id="txt_numero_cartao" placeholder="1234 4321 1234 4321" size="20" maxlength="16">
+                    </div>
+
+                    <div>
+                        <label for="txt_titular">Titular:</label>
+                        <br>
+                        <input type="text" id="txt_titular" placeholder="Nome conforme escrito no cartão." size="50" maxlength="40">
+                    </div>
+    
+                    <div id="rodape-dados-cartao-div">
+                        <div id="cod-seguranca-div">
+                            <label for="txt_cod_seg">Código de Segurança:</label>
+                            <input type="number" id="txt_cod_seg" placeholder="NNN" 
+                                size="6" maxlength="3"max="999">
+                        </div>
+
+                        <div id="validade-cartao-div">
+                            <label for="slc_mes">Validade:</label>
+                            <select id="slc_mes" name="mes">
+                                <option value="00"></option>
+                                <option value="01">Jan</option>
+                                <option value="02">Fev</option>
+                                <option value="03">Mar</option>
+                                <option value="04">Abr</option>
+                                <option value="05">Mai</option>
+                                <option value="06">Jun</option>
+                                <option value="07">Jul</option>
+                                <option value="08">Ago</option>
+                                <option value="09">Set</option>
+                                <option value="10">Out</option>
+                                <option value="11">Nov</option>
+                                <option value="12">Dez</option>
+                            </select>
+                            /
+                            <input type="number" id="ano" placeholder="AAAA" 
+                                size="10" maxlength="4" min="2024" max="2040">
+                        </div>
+                    </div>
+                </div>
+
+                <br />
+                <br />
+
+                <div id="botao-comprar-div">
+                    <input type="submit" value="Comprar">
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
